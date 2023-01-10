@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 40px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(331deg, rgba(34,178,195,1) 0%, rgba(45,253,170,1) 100%) no-repeat fixed;
+}
+
+#card {
+    background-color: white;
+    width: fit-content;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 2px 5px 9px #000;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+#card2 {
+    background-color: white;
+    width: fit-content;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 2px 5px 9px #000;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+#oneh1, #twoh1 {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #22b2c3;
+    text-shadow: 2px 4px 2px #2dfdaa;
+}
+
+#usuario, #senha {
+    padding: 20px 50px;
+    border-radius: 10px;
+    margin: 10px 0px;
+    border-width: 0px 0px 1px 0px;
+    border-color: black;
+    transition: .2s;
+}
+
+#usuario2, #email, #senha2 {
+    padding: 20px 50px;
+    border-radius: 10px;
+    margin: 10px 0px;
+    border-width: 0px 0px 1px 0px;
+    border-color: black;
+    transition: .2s;
+}
+
+input:focus {
+    outline: none;
+    background-color: #94ffd4;
+    color: white;
+}
+
+#loginbtn {
+    padding: 20px 40px;
+    border-radius: 10px;
+    margin: 10px 0px;
+    border-width: 0px 0px 1px 0px;
+    border-color: 5px 10px 5px #2dfdaa;
+    transition: .5s;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 800;
+    background-color: #22b2c3;
+}
+
+#loginbtn:hover {
+    background-color: #2dfdaa;
+}
+
+#linha {
+    border: 1px solid #2dfdaa;
+    margin-top: 20px;
+}
+
+#textfooter {
+    margin: 20px 0px;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin-top: 90px;
+    padding: 15px;
+    border: solid black;
+    border-width: 0px 0px 1px 0px;
+    border-radius: 10px;
+    transition: .2s;
+    text-transform: uppercase;
+    background-color: #2dfdaa;
+}
+
+a:hover {
+    text-decoration: underline;
+    background-color: #94ffd4;
+    font-weight: bolder;
+}
